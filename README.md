@@ -14,7 +14,7 @@ The app displays random cat images and a list of cat breeds, with easy navigatio
 - [React](https://react.dev/)
 - [Vite](https://vitejs.dev/)
 - [The Cat API](https://thecatapi.com/)
-- 
+
 ## Getting Started
 
 Follow the instructions below to get the project up and running on your local machine.
@@ -42,18 +42,5 @@ Make sure you have the following installed:
    npm run dev
    The application should now be running on http://localhost:5173.
 
-## Project Structure
-src/
-├── api.js             # File to handle API requests.
-├── components/
-│   ├── CatBreeds.jsx   # Component to fetch and display cat breeds.
-│   ├── CatImages.jsx   # Component to fetch and display random cat images.
-├── App.jsx             # The main application component with navigation.
-├── main.jsx            # Entry point for the application.
-└── App.css           # Styles for the application.
-
-
-## API Key Management
-    For security purposes, your API key should not be hardcoded in the application. Instead, store it in the .env file as shown above.
 
 
